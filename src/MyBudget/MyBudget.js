@@ -248,7 +248,7 @@ class MyBudget extends Component {
           </div>
 
           <div className="value">
-            <label htmlFor="value">This budget value is: </label>
+            <label for="value">This budget value is: </label>
             <input
               type="number"
               value={this.state.value}
