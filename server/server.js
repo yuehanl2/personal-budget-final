@@ -61,7 +61,7 @@ const data = {
 }
 ;*/
 
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.post("/signup", (req, res) => {
   mongoose
