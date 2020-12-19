@@ -32,15 +32,15 @@ const LoginPage = () => {
       <form onSubmit={handleSubmit}>
         <div className="login">
           <div>
-          <label htmlFor="email">Enter Email: </label>
+          <label for="email">Enter Email: </label>
           <input type="email" name="email" id="email" />
         </div>
         <div>
-          <label htmlFor="username">Enter User Name: </label>
+          <label for="username">Enter User Name: </label>
           <input type="username" name="username" id="username" />
         </div>
         <div>
-          <label htmlFor="password">Enter Password: </label>
+          <label for="password">Enter Password: </label>
           <input type="password" name="password" id="password" />
         </div>
         <div>
